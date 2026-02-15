@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "package": "com.autofish.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "client": [
+        "FishingBobberAccessor",
+        "FishingBobberEntityMixin",
+        "InGameHudMixin",
+        "KeyBindingAccessor"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
